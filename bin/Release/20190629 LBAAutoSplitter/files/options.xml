@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<options>
+	<LBADir> <!-- used for save file location -->
+		R:\GOG Games\Little Big Adventure_Clean
+	</LBADir>
+	<interval>
+		10
+	</interval>
+	<deleteSaves>
+		True
+	</deleteSaves>
+	<currentRouteFile>
+		.\files\route.xml <!-- probably going to error, needs full path -->
+	</currentRouteFile>
+  <autoSaveSplits>
+    False
+  </autoSaveSplits>
+</options>

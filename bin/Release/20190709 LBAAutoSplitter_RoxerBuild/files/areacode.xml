@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<lba1>
+	<island name="Citadel">
+		<area id="0">
+			Prison
+		</area>		
+		<area id="1">
+			Outside the citadel
+		</area>
+		<area id="2">
+			near the tavern
+		</area>
+		<area id="3">
+			near the pharmacy
+		</area>
+		<area id="4">
+			near twinsen's house
+		</area>
+		<area id="5">
+			inside Twinsen's house
+		</area>
+		<area id="6">
+			Harbor
+		</area>
+		<area id="7">
+			Pharmacy
+		</area>
+		<area id="14">
+			Tavern
+		</area>
+		<area id="16">
+			Inside a Rabbibunny house
+		</area>
+		<area id="20">
+			Architect's house
+		</area>
+		<area id="21">
+			Secret chamber in the house
+		</area>
+		<area id="33">
+			Cellar of the Tavern
+		</area>
+		<area id="34">
+			Sewer of the 1st scene
+		</area>		
+		<area id="35">
+			Warehouse
+		</area>		
+		<area id="55">
+			Sewer (secret)
+		</area>		
+		<area id="104">
+			Ticket Office
+		</area>		
+		<area id="116">
+			End sequence (1)
+		</area>		
+		<area id="117">
+			End sequence (2)
+		</area>	
+		<area id="118">
+			Twinsen's house
+		</area>
+	</island>
+
+	<island name="Principal">
+		<area id="10">
+			Library
+		</area>
+		<area id="11">
+			Harbor
+		</area>
+		<area id="12">
+			Outside the fortress
+		</area>
+		<area id="13">
+			Lupin Burg
+		</area>
+		<area id="17">
+			Ruins
+		</area>
+		<area id="18">
+			Outside the library
+		</area>
+		<area id="19">
+			Militairy camp
+		</area>
+		<area id="22">
+			Ticket office
+		</area>
+		<area id="23">
+			Prison
+		</area>
+		<area id="24">
+			Port Belooga
+		</area>
+		<area id="25">
+			Peg Leg Street
+		</area>
+		<area id="26">
+			Shop
+		</area>
+		<area id="27">
+			Locksmith
+		</area>
+		<area id="28">
+			Inside a Rabbibunny house
+		</area>
+		<area id="29">
+			Astronomer's House
+		</area>
+		<area id="30">
+			Tavern
+		</area>
+		<area id="31">
+			Basement of the Astronomer
+		</area>
+		<area id="20">
+			Stables
+		</area>
+		<area id="37">
+			Outside the water tower
+		</area>
+		<area id="38">
+			Inside the water tower
+		</area>
+		<area id="52">
+			House at Peg Leg Street
+		</area>
+		<area id="56">
+			Sewer (secret)
+		</area>
+		<area id="58">
+			House with the TV
+		</area>
+		<area id="102">
+			House in port Belooga
+		</area>
+		<area id="105">
+			Inside the fortress
+		</area>
+	</island>
+
+	<island name="White Leaf Desert">
+		<area id="8">
+			Temple of Bú 1st scene
+		</area>
+		<area id="36">
+			outside the Temple of Bú
+		</area>
+		<area id="39">
+			Militairy camp
+		</area>
+		<area id="40">
+			Temple of Bú 2nd scene
+		</area>
+		<area id="41">
+			Temple of Bú 3rd scene
+		</area>
+		<area id="57">
+			Maze
+		</area>
+	</island>
+
+	<island name="Proxima">
+		<area id="42">
+			Proxim City
+		</area>
+		<area id="43">
+			Museum
+		</area>
+		<area id="44">
+			Near Baldinos's house
+		</area>
+		<area id="45">
+			Marked rune stone
+		</area>
+		<area id="46">
+			Eclipse rune stone
+		</area>
+		<area id="47">
+			Before the marked rune stone
+		</area>
+		<area id="48">
+			Forger's house
+		</area>
+		<area id="49">
+			Prison
+		</area>
+		<area id="50">
+			Shop
+		</area>
+		<area id="51">
+			Sewer
+		</area>
+		<area id="52">
+			Grobo house
+		</area>
+		<area id="53">
+			Baldino's house
+		</area>
+	</island>
+
+	<island name="Hamalayi Mountains">	
+		<area id="9">
+			Landing place
+		</area>
+		<area id="15">
+			Rabbibunny village
+		</area>
+		<area id="62">
+			1st fighting scene
+		</area>
+		<area id="63">
+			2nd fighting scene
+		</area>
+		<area id="64">
+			Prison
+		</area>
+		<area id="68">
+			Outside the transporter
+		</area>
+		<area id="66">
+			Inside the transporter
+		</area>
+		<area id="67">
+			Mutation centre 1st scene
+		</area>
+		<area id="68">
+			Mutation centre 2nd scene
+		</area>
+		<area id="69">
+			3rd fighting scene
+		</area>
+		<area id="70">
+			Entrance to the prison
+		</area>
+		<area id="71">
+			Outside the prison
+		</area>
+		<area id="72">
+			Catamaran dock
+		</area>
+		<area id="73">
+			Bunker near clear water
+		</area>
+		<area id="81">
+			Sacred Carrot
+		</area>
+		<area id="82">
+			Backdoor of the prison
+		</area>
+		<area id="91">
+			Behind the sacred carrot
+		</area>
+		<area id="92">
+			Clear water lake
+		</area>
+		<area id="96">
+			Ski resort
+		</area>
+	</island>
+
+	<island name="Brundle">
+		<area id="94">
+			Outside the teleportation
+		</area>
+		<area id="95">
+			Inside the teleportation
+		</area>
+		<area id="97">
+			Docks
+		</area>
+		<area id="98">
+			Secret room
+		</area>
+		<area id="99">
+			Near the telepods
+		</area>
+		<area id="103">
+			Painter's house
+		</area>
+	</island>
+
+	<island name="Fortress">
+		<area id="83">
+			Inside the fortress
+		</area>
+		<area id="84">
+			Outside the forstress
+		</area>
+		<area id="85">
+			Secret passage scene 1
+		</area>
+		<area id="86">
+			Secret in the fortress
+		</area>
+		<area id="87">
+			Near Zoe's cell
+		</area>
+		<area id="88">
+			Swimming pool
+		</area>
+		<area id="89">
+			Cloning centre
+		</area>
+		<area id="90">
+			Rune stone
+		</area>
+		<area id="93">
+			Outside fortress
+		</area>
+		<area id="100">
+			Docks
+		</area>
+	</island>
+
+	<island name="Polar">
+		<area id="106">
+			2nd scene
+		</area>
+		<area id="107">
+			3rd scene
+		</area>
+		<area id="108">
+			Before the rocky peak
+		</area>
+		<area id="109">
+			4th scene
+		</area>
+		<area id="110">
+			The rocky peak
+		</area>
+		<area id="111">
+			On the rocky peak
+		</area>
+		<area id="112">
+			Before the end room
+		</area>
+		<area id="113">
+			Final Battle
+		</area>
+		<area id="114">
+			End scene  <!-- Area to trigger timer stop -->
+		</area>
+		<area id="115">
+			1st scene
+		</area>		
+	</island>
+
+	<island name="Tibbet">
+		<area id="74">
+			Village
+		</area>
+		<area id="75">
+			Secret passage scene 2
+		</area>
+		<area id="76">
+			Near the bar
+		</area>
+		<area id="77">
+			Secret passage scene 1
+		</area>
+		<area id="78">
+			Near the Dino-Fly
+		</area>
+		<area id="79">
+			Secret passage scene 3
+		</area>
+		<area id="80">
+			Twinsun Cafe
+		</area>
+		<area id="101">
+			Shop
+		</area>
+	</island>
+
+	<island name="Rebellion">
+		<area id="59">
+			Harbor
+		</area>
+		<area id="60">
+			Rebel camp
+		</area>
+	</island>
+
+	<island name="Misc">
+		<area id="61">
+			Removed Room
+		</area>
+		<area id="119">
+			Credits screen
+		</area>
+	</island>
+</lba1>

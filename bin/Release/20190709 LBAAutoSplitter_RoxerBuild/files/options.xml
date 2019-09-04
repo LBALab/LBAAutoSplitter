@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<options>
+  <LBADir>R:\GOG Games\Little Big Adventure_Clean</LBADir>
+  <interval>10</interval>
+  <deleteSaves>False</deleteSaves>
+  <currentRouteFile>./files/routeFiles/routeRoxer0.xml</currentRouteFile>
+  <autoSaveSplits>False</autoSaveSplits>
+  <showSubArea>False</showSubArea>
+  <showMessageBoxOnRunEnd>True</showMessageBoxOnRunEnd>
+  <alwaysOnTop>False</alwaysOnTop>
+  <precisionDigits>3</precisionDigits>
+  <saveColumnWidths>True</saveColumnWidths>
+  <mainLVColumnWidths>
+    <areaName>69</areaName>
+    <differenceBest>55</differenceBest>
+    <differencePB>54</differencePB>
+    <time>81</time>
+  </mainLVColumnWidths>
+  <mainWindow>
+    <positionX />
+    <positionY />
+    <height />
+    <width />
+    <alwaysOnTop>
+			False
+	</alwaysOnTop>
+  </mainWindow>
+  <notesWindow>
+    <positionX />
+    <positionY />
+    <height />
+    <width />
+    <alwaysOnTop />
+  </notesWindow>
+</options>

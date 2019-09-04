@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<route>
+  <area pos="1" id="0">
+    <bestEver>906888439</bestEver>
+    <PBTime>906888439</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="2" id="1">
+    <bestEver>78587802</bestEver>
+    <PBTime>78587802</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="3" id="3">
+    <bestEver>154524936</bestEver>
+    <PBTime>154524936</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="4" id="2">
+    <bestEver>133604278</bestEver>
+    <PBTime>133604278</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="5" id="4">
+    <bestEver>296868052</bestEver>
+    <PBTime>296868052</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="6" id="5">
+    <bestEver>689874546</bestEver>
+    <PBTime>689874546</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="7" id="4">
+    <bestEver>96081656</bestEver>
+    <PBTime>96081656</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="8" id="21">
+    <bestEver>747655599</bestEver>
+    <PBTime>747655599</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="9" id="4">
+    <bestEver>202957593</bestEver>
+    <PBTime>202957593</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="10" id="2">
+    <bestEver>75930850</bestEver>
+    <PBTime>75930850</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="11" id="6">
+    <bestEver>160461255</bestEver>
+    <PBTime>160461255</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="12" id="35">
+    <bestEver>673300220</bestEver>
+    <PBTime>673300220</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="13" id="6">
+    <bestEver>165624843</bestEver>
+    <PBTime>165624843</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="14" id="11">
+    <bestEver>4382360069</bestEver>
+    <PBTime>4382360069</PBTime>
+    <splitNote />
+  </area>
+</route>

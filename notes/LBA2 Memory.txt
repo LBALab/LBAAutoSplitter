@@ -1,0 +1,129 @@
+-------------------------
+Run Start
+-------------------------
+
+LBA2 01D15610
+
+Allocation base: 00400000
+Base: 01CFB000
+Size: 1F000
+Module: DOSBox.exe
+00401210
+
+0B71703D: "Run-Time system." (No quotes)
+-------------------------
+Run End
+-------------------------
+0B72603D: "Run-Time system."
+0BE5E040 - seems bad :(
+
+
+----------------
+
+Base			= 0B06A03D
+
+Holomap			= 0B0C1C30
+Ball			= 0B0C1C32
+Darts			= 0B0C1C34
+Sendalls Ball		= 0B0C1C36
+Tunic			= 0B0C1C38
+Pearl			= 0B0C1C3A
+Pyramid Key		= 0B0C1C3C
+Steering Wheel		= 0B0C1C3E
+
+Crystal			= 0B0C1C42
+Sabre			= 0B0C1C44
+Wannies Glove		= 0B0C1C46
+Proto Pack		= 0B0C1C48
+Ferry Ticket		= 0B0C1C4A
+Meca Penguin		= 0B0C1C4C
+Gazogem			= 0B0C1C4E
+
+Ring			= 0B0C1C50
+Gallic Acid		= 0B0C1C52
+Ferry Song		= 0B0C1C54
+Lightening Spell	= 0B0C1C56
+Umbrella		= 0B0C1C58
+Gems			= 0B0C1C5A
+Horn Triton		= 0B0C1C5C
+
+Blowgun			= 0B0C1C5E
+Memory Viewer		= 0B0C1C60
+Firefly Tart		= 0B0C1C62
+Walkie Talkie		= 0B0C1C64
+Flower Balsam		= 0B0C1C66
+Slate			= 0B0C1C68
+Translator		= 0B0C1C6A  //Replaces steering wheel
+
+Diplomer		= 0B0C1C6C
+Franco Fragment		= 0B0C1C6E
+Sups Fragment		= 0B0C1C70
+Mosquibees Fragment	= 0B0C1C72
+Fragment Wannies	= 0B0C1C74
+Throne Key		= 0B0C1C76
+Pick Axe		= 0B0C1C78
+Burger Masters Key	= 0B0C1C7A //Replaces Pyramid
+Burger Masters Notes	= 0B0C1C7C //Replaces Key
+Protection Spell	= 0B0C1C7E
+
+Clover			= 0B0C1E26
+Money (Kashers)		= 0B0C1E34
+Key			= 0B0C1E3E
+Clover Box		= 0B0A76CE
+
+
+------------------------
+
+Health	-	0B0C1F60
+		0B0C1F64
+
+		0B0F792C
+		0B0F7930
+
+-----------------------
+
+Base			= 0B1B303D
+
+Health			= 0B20AF66
+Magic Level		= 0B20AE3C
+Magic			= 0B20AE3D //20 Magic points per magic level
+
+--------------------
+
+0B71703D: "Run-Time system."
+0B72603D: "Run-Time system."
+0B05703D
+0B0A303D
+
+----------------------
+
+Meca Penguins quantity
+
+Base	= 0B1C203D
+
+Meca	= 0B219C4C
+
+--------------
+Itinary Token - first tokeon on zeelich
+Seems to be two addresses and both have to be 1.
+Base:	0B2E303D
+Addr1:	0B33AC3A
+Addr2:	0B35B6D4
+Token didn't work, perhaps all 3 need setting?
+
+------------------------
+
+Base	=	0B2D703D
+Zilitos	=	0B32EE38
+
+
+----------------
+
+Possible game over values
+Base: 0b05403d
+0B0A9B54 - Seems to be a cut screen trigger, contains a number = 0x55b17
+0b0abd64 - seems to only be 1 at end of run = 0x57D27 - fail
+
+---------------------
+Base: 0b05d03d
+Areacode: 0b0b2c9c

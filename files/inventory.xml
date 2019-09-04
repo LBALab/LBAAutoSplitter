@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<inventory>
+	<item offset="1">
+		Holomap
+	</item>
+	<item offset="2">
+		Magic Ball
+	</item>
+	<item offset="3">
+		FunFrock's Saber
+	</item>
+	<item offset="4">
+		Gawleys Horn
+	</item>
+	<item offset="5">
+		Tunic
+	</item>
+	<item offset="6">
+		Book of Bù
+	</item>
+	<item offset="7">
+		Sendels's Medallion
+	</item>
+	<item offset="8">
+		Flask of clear water
+	</item>
+	<item offset="9">
+		Red Card
+	</item>
+	<item offset="10">
+		Blue Card
+	</item>	
+	<item offset="11">
+		ID-Card
+	</item>
+	<item offset="12">
+		Mr. Miles' Pass
+	</item>
+	<item offset="13">
+		Proto Pack
+	</item>
+	<item offset="14">
+		Snowboard
+	</item>
+	<item offset="15">
+		Meca Penguin
+	</item>
+	<item offset="16">
+		Gas
+	</item>
+	<item offset="17">
+		Pirate Flag
+	</item>
+	<item offset="18">
+		Magic Flute
+	</item>
+	<item offset="19">
+		Space Guitar
+	</item>
+	<item offset="20">
+		Hair Dryer
+	</item>
+	<item offset="21">
+		Ancestral Key
+	</item>
+	<item offset="22">
+		Bottle of Syrup
+	</item>
+	<item offset="23">
+		Empty Bottle
+	</item>
+	<item offset="24">
+		Ferry Ticket
+	</item>
+	<item offset="25">
+		Keypad
+	</item>
+	<item offset="26">
+		Coffee Can
+	</item>
+	<item offset="27">
+		Bonus List
+	</item>
+	<item offset="28">
+		Clover Leaf
+	</item>	
+</inventory>

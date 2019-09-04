@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<route>
+	<area pos="1" id="0">	<!-- Citadel: Prison -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="2" id="11">	<!-- Principal: Harbour -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="3" id="39">	<!-- White leaf: Military camp -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="4" id="42">	<!-- Proxima: Proxim City -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="5" id="72">	<!-- Hamalayi Mountains: Catamaran Dock -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="6" id="97">	<!-- Brundle Island: Docks -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="7" id="100">	<!-- Fortress Island: Docks -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="8" id="115">	<!-- Polar Island: 1st scene -->
+		<bestEver><!-- Lowest ever time -->
+		</bestEver>
+		<PBTime><!-- Segment time from best overall run -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+	<area pos="9" id="114">	<!-- Polar: End scene -->
+		<bestEver><!-- PB Time -->
+		</bestEver>
+		<PBTime><!-- Sum of best -->
+		</PBTime>
+		<splitNote><!-- Save note associated with split to display at run time -->
+		</splitNote>
+	</area>
+</route>

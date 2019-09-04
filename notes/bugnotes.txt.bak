@@ -1,0 +1,3 @@
+ToDo: Delete save on restart
+ToDo: Update timer interval on options form save
+Crashes if save file deleted whilst running

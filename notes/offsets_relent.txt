@@ -1,0 +1,4 @@
+Offsets from base where base is location of "Relent"
+
+Scenery Zoom	= E0A
+Areacode	= E10

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<options>
+  <LBADir>R:\GOG Games\Little Big Adventure_Clean</LBADir>
+  <interval>10</interval>
+  <deleteSaves>False</deleteSaves>
+  <currentRouteFile>R:\Users\User\source\repos\LBAAutoSplitter\bin\Debug\files\routeMain.xml</currentRouteFile>
+  <autoSaveSplits>False</autoSaveSplits>
+  <showSubArea>True</showSubArea>
+  <showMessageBoxOnRunEnd>True</showMessageBoxOnRunEnd>
+  <alwaysOnTop>True</alwaysOnTop>
+  <precisionDigits>3</precisionDigits>
+  <disableAutoZoom>True</disableAutoZoom>
+  <saveColumnWidths>True</saveColumnWidths>
+  <mainLVColumnWidths>
+    <areaName>118</areaName>
+    <differenceBest>55</differenceBest>
+    <differencePB>79</differencePB>
+    <time>70</time>
+  </mainLVColumnWidths>
+  <mainWindow>
+    <positionX />
+    <positionY />
+    <height />
+    <width />
+    <alwaysOnTop>
+			False
+		</alwaysOnTop>
+  </mainWindow>
+  <notesWindow>
+    <positionX />
+    <positionY />
+    <height />
+    <width />
+    <alwaysOnTop />
+  </notesWindow>
+</options>

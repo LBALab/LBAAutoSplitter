@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<route>
+	<area pos="1" id="0">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="2" id="1">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="3" id="3">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="4" id="2">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="5" id="4">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="6" id="5">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="7" id="4">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="8" id="21">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="9" id="4">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="10" id="2">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="11" id="6">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="12" id="35">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="13" id="6">
+		<bestEver />
+		<PBTime />
+	</area>
+	<area pos="14" id="11">
+		<bestEver />
+		<PBTime />
+	</area>
+</route>

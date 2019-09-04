@@ -1,0 +1,120 @@
+Areacode address: 0B67EDD8
+
+0B6A1DD8
+0B67EDD8
+0B686DD8	(Process name 0000675C)
+0B69DDD8	(Process name 00006734)
+0B6E1DD8	(Process name 000005EC)
+0B67FDD8	(Process name 00004D74)
+
+
+PROCESS		1st "Relent"	AREACODE	Diff
+000065C8	0B6A0FC8	0B6A1DD8	00000E10
+000068AC	0B6ECFC8	0B6EDDD8	00000E10
+00006B80	0B6ABFC8	0B6ACDD8	00000E10
+		0B6B5FC8
+		0B025FC8
+
+-----------
+
+DOSBox
+
+
+Relent		Zoom
+0B692FC8	0B693DD2	= E0A
+0B6D3FC8	0B6D4DD2	= E0A
+
+
+
+Scenery Zoom Address: 
+0B67EDD2 - 0 no zoom, 1, zoom
+0B693DD2
+Inventory
+	holo		0B68ED3B
+	Magic ball	0B68ED3C
+	Saber		0B68ED3D
+	Gawleys Horn	0B68ED3E
+	Tunic		0B68ED3F
+	Bu		0B68ED40
+	Medallion	0B68ED41
+
+	Clear Water	0B68ED42
+	Red Card	0B68ED43
+	Blue Card	0B68ED44
+	ID		0B68ED45
+	Miles ID	0B68ED46
+	Proto		0B68ED47
+	Snowboard	0B68ED48
+
+	Meca		0B68ED49
+	Gas		0B68ED4A
+	Pirate Flag	0B68ED4B
+	Magic Flute	0B68ED4C
+	Space Guitar	0B68ED4D
+	Hair Dryer	0B68ED4E
+	Ancest Key	0B68ED4F
+
+	Syrup		0B68ED50
+	Empt. Bottle	0B68ED51
+	Ferry Ticket	0B68ED52
+	Keypad		0B68ED53
+	Coffee can	0B68ED54
+	Bonuses List	0B68ED55
+	Clover		0B68ED56
+
+------------
+0000675C
+
+------------------
+
+Relent		Inventory
+0B045FC8	0B056D3B	= 10D73
+0AFE9FC8	0AFFAD3B	= 10D73
+0AFDFFC8	0AFF0D3B	= 10D73
+
+----------------------------------------
+
+DOSBox.exe + BE B60185DB
+Base 0B025000
+
+----------------------------
+Relent = 
+Underlying values
+"Scenery Zoom On" = 0B56D0C0
+"No Scenery Zoom" = 0B56D12C
+
+Used for menu assigned from underying values
+Zoom string = 0B6C9246
+
+Base:  0b6acfc8
+Seems to indicate mode: 0b6addd0
+-------------
+
+Relent = 0afd6fc8
+Kashers = 0afd7dec
+
+-------------------
+Relent = 0b131fc8
+0b132de8 - magic level
+0b132dea - magic
+0b132dee - keys
+
+0b132df2 - Clovers
+0b132df4 - clover boxes
+0b132df8 = Gas Quantity 
+
+0b13f51c - health - 50 - crashed at 75
+
+0b142d3b = Holo
+
+--------------
+
+Quest
+Relent		= 0afcefc8
+Met Locksmith	= 0afdfd57
+
+--------------------------
+
+Selected Inventory Index
+Relent	=	0afd9fc8
+Inv	=	0afdb2bc

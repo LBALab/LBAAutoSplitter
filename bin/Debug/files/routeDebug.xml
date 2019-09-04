@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<route>
+  <area pos="1" id="2">
+    <bestEver>3210000</bestEver>
+    <PBTime>0</PBTime>
+    <splitNote>cunt</splitNote>
+  </area>
+  <area pos="2" id="14">
+    <bestEver>0</bestEver>
+    <PBTime>0</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="3" id="2">
+    <bestEver>0</bestEver>
+    <PBTime>0</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="4" id="14">
+    <bestEver>0</bestEver>
+    <PBTime>0</PBTime>
+    <splitNote>
+    </splitNote>
+  </area>
+  <area pos="5" id="2">
+    <bestEver>3210000</bestEver>
+    <PBTime>0</PBTime>
+    <splitNote>
+      <!-- Save note associated with split to display at run time -->
+    </splitNote>
+  </area>
+</route>
