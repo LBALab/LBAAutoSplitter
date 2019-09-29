@@ -1,0 +1,9 @@
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at LBAAutoSplitter.Route.save()
+   at LBAAutoSplitter.frmMain.runEnd()
+   at LBAAutoSplitter.frmMain.runStarted()
+   at LBAAutoSplitter.frmMain.TmrInterval_Tick(Object sender, EventArgs e)
+   at System.Windows.Forms.Timer.OnTick(EventArgs e)
+   at System.Windows.Forms.Timer.TimerNativeWindow.WndProc(Message& m)
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)
+happened when ending the run

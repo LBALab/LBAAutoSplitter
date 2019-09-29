@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 using System.Xml;
 
 namespace LBAAutoSplitter
@@ -113,13 +114,21 @@ namespace LBAAutoSplitter
          */
         public void Save(bool completedRun)
         {
-            if(completedRun)
-                RecalculateTimes();
-            for (int i = 0; i < splits.Length - 1; i++)
+            try
             {
-                doc.DocumentElement.SelectNodes("/route/area/splitNote")[i].InnerText = splits[i].note;
+                if (completedRun)
+                    RecalculateTimes();
+                for (int i = 0; i < splits.Length - 1; i++)
+                {
+                    doc.DocumentElement.SelectNodes("/route/area/splitNote")[i].InnerText = splits[i].note;
+                }
+                doc.Save(path);
             }
-            doc.Save(path);
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message + "\n" + e.StackTrace + "\n" + e.InnerException + "\n");
+                MessageBox.Show("Error saving splits");
+                MessageBox.Show("Doc null? " + (null == doc).ToString());            }
         }
 
         public void CreateNew(string path, Split[] splits )

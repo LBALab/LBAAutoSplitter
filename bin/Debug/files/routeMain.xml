@@ -3,37 +3,126 @@
 	<area pos="1" id="0">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="2" id="11">
+	<area pos="2" id="7">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="3" id="39">
+	<area pos="3" id="5">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="4" id="42">
+	<area pos="4" id="35">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="5" id="72">
+	<area pos="5" id="11">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="6" id="97">
+	<area pos="6" id="12">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="7" id="100">
+	<area pos="7" id="29">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="8" id="115">
+	<area pos="8" id="26">
 		<bestEver />
 		<PBTime />
+		<splitNote />
 	</area>
-	<area pos="9" id="114">
+	<area pos="9" id="38">
 		<bestEver />
 		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="10" id="10">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="11" id="24">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="12" id="39">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="13" id="8">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="14" id="40">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="15" id="41">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="16" id="36">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="17" id="24">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="18" id="42">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="19" id="48">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="20" id="53">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="21" id="43">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="22" id="49">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="23" id="43">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="24" id="4">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="25" id="21">
+		<bestEver />
+		<PBTime />
+		<splitNote />
 	</area>
 </route>
