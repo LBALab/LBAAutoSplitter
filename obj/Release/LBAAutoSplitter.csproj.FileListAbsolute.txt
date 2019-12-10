@@ -8,12 +8,10 @@ R:\Users\User\source\repos\LBAAutoSplitter\bin\Release\LBAAutoSplitter.pdb
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.csprojAssemblyReference.cache
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.frmFAQ.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.frmMain.resources
-R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.frmAbout.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.frmOptions.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.frmSetupSplits.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.Properties.Resources.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.csproj.GenerateResource.cache
-R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.csproj.CoreCompileInputs.cache
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.exe.manifest
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.application
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.exe
@@ -23,3 +21,4 @@ R:\Users\User\source\repos\LBAAutoSplitter\bin\Release\files\routeFiles\principa
 R:\Users\User\source\repos\LBAAutoSplitter\bin\Release\files\routeFiles\route.xml
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.dlgAddNote.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Release\LBAAutoSplitter.dlgShowSplitNote.resources
+R:\Users\User\source\repos\LBAAutoSplitter\bin\Release\files\routeFiles\routeGlitchless.xml

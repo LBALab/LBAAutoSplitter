@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMain));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.loadRouteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -129,6 +130,7 @@
             this.chTimeDiffPB,
             this.chTime});
             this.lvSplits.FullRowSelect = true;
+            this.lvSplits.HideSelection = false;
             this.lvSplits.Location = new System.Drawing.Point(12, 27);
             this.lvSplits.MultiSelect = false;
             this.lvSplits.Name = "lvSplits";
@@ -258,6 +260,7 @@
             this.Controls.Add(this.lblTime);
             this.Controls.Add(this.lvSplits);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "FrmMain";
             this.Text = "Live Splitter";

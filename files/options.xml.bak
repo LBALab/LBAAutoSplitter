@@ -31,9 +31,6 @@
 	<disableAutoZoom>
 		True
 	</disableAutoZoom>
-	<defaultInventorySquare>
-		True
-	</defaultInventorySquare>
 	<saveColumnWidths>
 		True
 	</saveColumnWidths>

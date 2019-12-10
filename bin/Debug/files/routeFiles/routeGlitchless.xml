@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<route>
+	<area pos="1" id="11">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="2" id="39">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="3" id="42">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="4" id="59">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="5" id="15">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="6" id="105">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="7" id="36">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="8" id="20">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="9" id="78">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="10" id="95">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="11" id="90">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+	<area pos="12" id="114">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+	</area>
+</route>

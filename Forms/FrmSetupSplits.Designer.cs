@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSetupSplits));
             this.lvSplits = new System.Windows.Forms.ListView();
             this.chIsland = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.chSubArea = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -58,6 +59,7 @@
             this.chSubArea});
             this.lvSplits.FullRowSelect = true;
             this.lvSplits.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.lvSplits.HideSelection = false;
             this.lvSplits.Location = new System.Drawing.Point(12, 31);
             this.lvSplits.MultiSelect = false;
             this.lvSplits.Name = "lvSplits";
@@ -120,6 +122,7 @@
             this.lvMain.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.chList});
             this.lvMain.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None;
+            this.lvMain.HideSelection = false;
             this.lvMain.Location = new System.Drawing.Point(6, 40);
             this.lvMain.MultiSelect = false;
             this.lvMain.Name = "lvMain";
@@ -213,11 +216,11 @@
             // saveAsToolStripMenuItem
             // 
             this.saveAsToolStripMenuItem.Name = "saveAsToolStripMenuItem";
-            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(114, 22);
             this.saveAsToolStripMenuItem.Text = "&Save As";
             this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.SaveAsToolStripMenuItem_Click);
             // 
-            // frmSetupSplits
+            // FrmSetupSplits
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -231,8 +234,9 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lvSplits);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "frmSetupSplits";
+            this.Name = "FrmSetupSplits";
             this.Text = "Setup Splits";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

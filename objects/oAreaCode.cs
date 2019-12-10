@@ -17,6 +17,7 @@ namespace LBAAutoSplitter
         Mem mem = new Mem();
         string fullFilePath;
         const string TEMPPOSTFIX = ".temp";
+        //const string TEMPPOSTFIX = ".temp";
         const int MAXFILESIZE = 500;    //Sanity check used when reading internal filename of LBA save file. If it's more than 500 it's either a REALLY
                                         //Long name, or it's not a LBA save file.
         private int fileTrueStart;      //The "true" file starts at length(filename) + 3 i.e. 03 filename null FF firstByte
@@ -69,8 +70,9 @@ namespace LBAAutoSplitter
             //Read area
             fsStream.Position = 0x100 + (fileTrueStart - 1);
             areaCode = fsStream.ReadByte().ToString();
-
             fsStream.Close();
+            fsStream.Dispose();
+            File.Delete(tempFilePath);
             return areaCode;
         }
     }

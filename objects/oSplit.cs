@@ -14,5 +14,6 @@ namespace LBAAutoSplitter
         public long PBTime;
         public long runSplitTime;
         public string note;
+        public string splitName;
     }
 }

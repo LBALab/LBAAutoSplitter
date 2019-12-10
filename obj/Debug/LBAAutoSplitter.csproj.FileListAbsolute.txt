@@ -3,7 +3,6 @@ R:\Users\User\source\repos\LBAAutoSplitter\bin\Debug\LBAAutoSplitter.exe
 R:\Users\User\source\repos\LBAAutoSplitter\bin\Debug\LBAAutoSplitter.pdb
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.Properties.Resources.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.csproj.GenerateResource.cache
-R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.csproj.CoreCompileInputs.cache
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.exe
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.pdb
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.frmMain.resources
@@ -22,3 +21,4 @@ R:\Users\User\source\repos\LBAAutoSplitter\bin\Debug\files\routeFiles\principalR
 R:\Users\User\source\repos\LBAAutoSplitter\bin\Debug\files\routeFiles\route.xml
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.dlgAddNote.resources
 R:\Users\User\source\repos\LBAAutoSplitter\obj\Debug\LBAAutoSplitter.dlgShowSplitNote.resources
+R:\Users\User\source\repos\LBAAutoSplitter\bin\Debug\files\routeFiles\routeGlitchless.xml

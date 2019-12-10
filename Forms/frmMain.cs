@@ -210,11 +210,21 @@ namespace LBAAutoSplitter
             //We should have a file
             if (oAreacode.GetAreaCodeFile() == route.splits[splitIndex].id)
             {
-                dtRunStart = DateTime.Now;
                 startedRun = true;
+                //dtRunStart = DateTime.Now.Subtract(new TimeSpan(0, 0, 0, 0, 820));
+                //dtRunStart = DateTime.Now.AddMinutes(820);
+                System.Threading.Thread.Sleep(getInt(new Options().startTimeDelay));
+                dtRunStart = DateTime.Now;
                 if(new Options().disableAutoZoom) new Mem().WriteVal(1, 0xE0A , 0);
-                lblTime.Text = "0";
+                if(new Options().defaultInventorySquare) new Mem().WriteVal(1, 0x12F4, 27);
+                lblTime.Text = TimeSpanToString(dtRunStart - DateTime.Now, true);
             }
+        }
+        private int getInt(string value)
+        {
+            int val;
+            if (!int.TryParse(value, out val)) return 0;
+            return val;
         }
         #endregion
         private void RunEnd()
@@ -334,10 +344,17 @@ namespace LBAAutoSplitter
          */
         private void DeleteSaves()
         {
-            Options opt = new Options();
-            //Loop through and delete all saves in the LBA directory
-            while (0 != Directory.GetFiles(opt.LBADir, "*.LBA").Count())
-                File.Delete(Directory.GetFiles(opt.LBADir, "*.LBA")[0]);
+            //ToDo: Not crash if remove fails.
+            try
+            {
+                Options opt = new Options();
+                //Loop through and delete all saves in the LBA directory
+                while (0 != Directory.GetFiles(opt.LBADir, "*.LBA").Count())
+                    File.Delete(Directory.GetFiles(opt.LBADir, "*.LBA")[0]);
+            }
+            catch(Exception e)
+            { }
+
         }
         #endregion
         #region refresh

@@ -36,6 +36,7 @@
             // 
             // btnClose
             // 
+            this.btnClose.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnClose.Location = new System.Drawing.Point(91, 347);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
@@ -61,7 +62,7 @@
             this.tbFAQ.Size = new System.Drawing.Size(224, 300);
             this.tbFAQ.TabIndex = 0;
             // 
-            // frmFAQ
+            // FrmFAQ
             // 
             this.AcceptButton = this.btnClose;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -71,8 +72,8 @@
             this.ControlBox = false;
             this.Controls.Add(this.gbFAQ);
             this.Controls.Add(this.btnClose);
-            this.Name = "frmFAQ";
-            this.Text = "frmFAQ";
+            this.Name = "FrmFAQ";
+            this.Text = "FAQs";
             this.gbFAQ.ResumeLayout(false);
             this.gbFAQ.PerformLayout();
             this.ResumeLayout(false);

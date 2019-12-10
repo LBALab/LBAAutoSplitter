@@ -29,6 +29,7 @@ namespace LBAAutoSplitter
             //Load Interval
             txtScanInterval.Text = options.interval;
             txtPrecisionDigits.Text = options.precisionDigits;
+            txtStartTimeDelay.Text = options.startTimeDelay;
             chkDisableAutoZoom.Checked = options.disableAutoZoom;
             chkDeleteSaves.Checked = options.deleteSaves;
             chkAutoSaveSplits.Checked = options.autoSaveSplits;
@@ -37,6 +38,7 @@ namespace LBAAutoSplitter
             chkAlwaysOnTop.Checked = options.alwaysOnTop;
             rbSave.Checked = options.saveColumnWidths;
             rbDefault.Checked = !options.saveColumnWidths;
+            chkDefaultInventorySquare.Checked = options.defaultInventorySquare;
         }
 
         private void BtnOpen_Click(object sender, EventArgs e)
@@ -59,6 +61,8 @@ namespace LBAAutoSplitter
             options.showMessageBoxOnRunEnd = chkShowMessageBoxOnRunEnd.Checked;
             options.alwaysOnTop = chkAlwaysOnTop.Checked;
             options.saveColumnWidths = rbSave.Checked;
+            options.startTimeDelay = txtStartTimeDelay.Text;
+            options.defaultInventorySquare = chkDefaultInventorySquare.Checked;
             options.save();
             this.Close();
         }

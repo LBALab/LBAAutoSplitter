@@ -52,6 +52,10 @@
             this.chkAlwaysOnTop = new System.Windows.Forms.CheckBox();
             this.chkDisableAutoZoom = new System.Windows.Forms.CheckBox();
             this.lblDisableAutoZoom = new System.Windows.Forms.Label();
+            this.lblStartTimeDelay = new System.Windows.Forms.Label();
+            this.txtStartTimeDelay = new System.Windows.Forms.TextBox();
+            this.lblDefaultInventorySquare = new System.Windows.Forms.Label();
+            this.chkDefaultInventorySquare = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblLBADir
@@ -285,7 +289,43 @@
             this.lblDisableAutoZoom.TabIndex = 45;
             this.lblDisableAutoZoom.Text = "Disable Auto-zoom";
             // 
-            // frmOptions
+            // lblStartTimeDelay
+            // 
+            this.lblStartTimeDelay.AutoSize = true;
+            this.lblStartTimeDelay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblStartTimeDelay.Location = new System.Drawing.Point(12, 165);
+            this.lblStartTimeDelay.Name = "lblStartTimeDelay";
+            this.lblStartTimeDelay.Size = new System.Drawing.Size(128, 13);
+            this.lblStartTimeDelay.TabIndex = 46;
+            this.lblStartTimeDelay.Text = "Start Time Delay (ms)";
+            // 
+            // txtStartTimeDelay
+            // 
+            this.txtStartTimeDelay.Location = new System.Drawing.Point(174, 162);
+            this.txtStartTimeDelay.Name = "txtStartTimeDelay";
+            this.txtStartTimeDelay.Size = new System.Drawing.Size(50, 20);
+            this.txtStartTimeDelay.TabIndex = 47;
+            // 
+            // lblDefaultInventorySquare
+            // 
+            this.lblDefaultInventorySquare.AutoSize = true;
+            this.lblDefaultInventorySquare.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDefaultInventorySquare.Location = new System.Drawing.Point(241, 165);
+            this.lblDefaultInventorySquare.Name = "lblDefaultInventorySquare";
+            this.lblDefaultInventorySquare.Size = new System.Drawing.Size(164, 13);
+            this.lblDefaultInventorySquare.TabIndex = 48;
+            this.lblDefaultInventorySquare.Text = "Default Inventory to Clover ";
+            // 
+            // chkDefaultInventorySquare
+            // 
+            this.chkDefaultInventorySquare.AutoSize = true;
+            this.chkDefaultInventorySquare.Location = new System.Drawing.Point(403, 165);
+            this.chkDefaultInventorySquare.Name = "chkDefaultInventorySquare";
+            this.chkDefaultInventorySquare.Size = new System.Drawing.Size(15, 14);
+            this.chkDefaultInventorySquare.TabIndex = 49;
+            this.chkDefaultInventorySquare.UseVisualStyleBackColor = true;
+            // 
+            // FrmOptions
             // 
             this.AcceptButton = this.btnSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -293,6 +333,10 @@
             this.CancelButton = this.btnCancel;
             this.ClientSize = new System.Drawing.Size(468, 234);
             this.ControlBox = false;
+            this.Controls.Add(this.chkDefaultInventorySquare);
+            this.Controls.Add(this.lblDefaultInventorySquare);
+            this.Controls.Add(this.txtStartTimeDelay);
+            this.Controls.Add(this.lblStartTimeDelay);
             this.Controls.Add(this.lblDisableAutoZoom);
             this.Controls.Add(this.chkDisableAutoZoom);
             this.Controls.Add(this.chkAlwaysOnTop);
@@ -318,7 +362,7 @@
             this.Controls.Add(this.txtLBADir);
             this.Controls.Add(this.btnOpen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Name = "frmOptions";
+            this.Name = "FrmOptions";
             this.Text = "Options";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -351,5 +395,9 @@
         private System.Windows.Forms.CheckBox chkAlwaysOnTop;
         private System.Windows.Forms.CheckBox chkDisableAutoZoom;
         private System.Windows.Forms.Label lblDisableAutoZoom;
+        private System.Windows.Forms.Label lblStartTimeDelay;
+        private System.Windows.Forms.TextBox txtStartTimeDelay;
+        private System.Windows.Forms.Label lblDefaultInventorySquare;
+        private System.Windows.Forms.CheckBox chkDefaultInventorySquare;
     }
 }
