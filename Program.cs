@@ -14,9 +14,16 @@ namespace LBAAutoSplitter
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);            
-            Application.Run(new FrmMain());
+            /*try
+            {*/
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new FrmMain());
+            /*}
+            catch (Exception e)
+            {
+                MessageBox.Show("Error: " + e.Message);
+            }*/
         }
     }
 }

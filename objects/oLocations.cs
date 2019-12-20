@@ -24,7 +24,8 @@ namespace LBAAutoSplitter
         public Locations()
         {
             //Get file path
-            path = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath + "\\files\\areacode.xml";
+            path = AppDomain.CurrentDomain.BaseDirectory + "files\\areacode.xml";
+            //path = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath + "\\files\\areacode.xml";
             doc = new XmlDocument();            
             doc.Load(path);
 

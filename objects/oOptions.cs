@@ -39,7 +39,7 @@ namespace LBAAutoSplitter
         private void readOptionsFile()
         {
             doc = new XmlDocument();
-            path = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath + "\\files\\options.xml";
+            path = AppDomain.CurrentDomain.BaseDirectory + "files\\options.xml";
             doc.Load(path);
 
             XmlNodeList nodes = doc.DocumentElement.SelectNodes("/options/LBADir");
@@ -59,7 +59,7 @@ namespace LBAAutoSplitter
             //If route file doesn't exist then default to default route file
             if (!File.Exists(routeFilePath))
             {
-                routeFilePath = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath + "\\files\\routeFiles\\route.xml";
+                routeFilePath= AppDomain.CurrentDomain.BaseDirectory + "files\\routeFiles\\route.xml";
             }
 
             saveColumnWidths = "true" == doc.DocumentElement.SelectNodes("/options/saveColumnWidths")[0].InnerText.Trim().ToLower();

@@ -55,7 +55,7 @@ namespace LBAAutoSplitter
 
         public string GetAreaCodeMemory()
         {
-            return mem.GetVal(1, OFFSET_AREACODE, 1).ToString();
+            return mem.readAddress(1, OFFSET_AREACODE, 1).ToString();
         }
 
         public string GetAreaCodeFile()

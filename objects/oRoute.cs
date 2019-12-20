@@ -41,7 +41,7 @@ namespace LBAAutoSplitter
                 splits[i].id = nodes[i].Attributes["id"].Value;
                 splits[i].bestEver = StringToTicks(doc.DocumentElement.SelectNodes("/route/area/bestEver")[i].InnerText.Trim());
                 splits[i].PBTime = StringToTicks(doc.DocumentElement.SelectNodes("/route/area/PBTime")[i].InnerText.Trim());
-                splits[i].splitName = doc.DocumentElement.SelectNodes("/route/area/splitName")[i].InnerText.Trim();
+                //splits[i].splitName = doc.DocumentElement.SelectNodes("/route/area/splitName")[i].InnerText.Trim();
                 //splits[i].note = doc.DocumentElement.SelectNodes("/route/area/splitNote")[i].InnerText.Trim();
             }
         }

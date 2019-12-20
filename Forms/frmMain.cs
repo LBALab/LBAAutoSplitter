@@ -226,6 +226,17 @@ namespace LBAAutoSplitter
             if (!int.TryParse(value, out val)) return 0;
             return val;
         }
+
+        /*private string getBasePath()
+        {
+            //
+            string path;
+            try
+            {
+                path = new Uri(Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().CodeBase)).LocalPath;
+            }
+            return "";
+        }*/
         #endregion
         private void RunEnd()
         {
