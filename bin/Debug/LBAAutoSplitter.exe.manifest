@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="105896">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="104360">
       <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DmjMk8zA2xWyGLZXY6QKskS+MI0zhjieR0ezGYHw3gg=</dsig:DigestValue>
+        <dsig:DigestValue>19Br4DzhaFOerJh/mdAbUs6yEJmwXTyklkBFFevq1vM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -215,8 +215,8 @@ namespace LBAAutoSplitter
                 //dtRunStart = DateTime.Now.AddMinutes(820);
                 System.Threading.Thread.Sleep(getInt(new Options().startTimeDelay));
                 dtRunStart = DateTime.Now;
-                if(new Options().disableAutoZoom) new Mem().WriteVal(1, 0xE0A , 0);
-                if(new Options().defaultInventorySquare) new Mem().WriteVal(1, 0x12F4, 27);
+                if(new Options().disableAutoZoom) new Mem().WriteVal(0xE0A , 0, 1);
+                if(new Options().defaultInventorySquare) new Mem().WriteVal(0x12F4, 27, 1);
                 lblTime.Text = TimeSpanToString(dtRunStart - DateTime.Now, true);
             }
         }
