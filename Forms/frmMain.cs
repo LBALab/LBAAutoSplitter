@@ -24,6 +24,7 @@ namespace LBAAutoSplitter
         AreaCode oAreacode;    //This would be a static variable in TmrInterval_Tick in C, but C# doesn't allow it    
         TimeSpan tsPrevSegments;
         bool startedRun = false;
+        bool reset = false;
         DateTime dtRunStart;
         string saveFilePath;
         int splitIndex;        
@@ -195,6 +196,7 @@ namespace LBAAutoSplitter
             //Keep polling until we have a file
             if (null == oAreacode)
             {
+
                 filePath = CheckNewLBAFileInDir(new Options().LBADir);
                 if (null == filePath) return;
                 saveFilePath = filePath;
@@ -211,8 +213,6 @@ namespace LBAAutoSplitter
             if (oAreacode.GetAreaCodeFile() == route.splits[splitIndex].id)
             {
                 startedRun = true;
-                //dtRunStart = DateTime.Now.Subtract(new TimeSpan(0, 0, 0, 0, 820));
-                //dtRunStart = DateTime.Now.AddMinutes(820);
                 System.Threading.Thread.Sleep(getInt(new Options().startTimeDelay));
                 dtRunStart = DateTime.Now;
                 if(new Options().disableAutoZoom) new Mem().WriteVal(0xE0A , 0, 1);

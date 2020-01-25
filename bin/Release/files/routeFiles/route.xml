@@ -1,76 +1,219 @@
-<?xml version="1.0" encoding="ISO-8859-1" ?>
-
+<?xml version="1.0" encoding="iso-8859-1"?>
 <route>
-	<area pos="1" id="0">	<!-- Citadel: Prison -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="1" id="0">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="2" id="11">	<!-- Principal: Harbour -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="2" id="16">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="3" id="39">	<!-- White leaf: Military camp -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="3" id="7">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="4" id="42">	<!-- Proxima: Proxim City -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="4" id="118">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="5" id="72">	<!-- Hamalayi Mountains: Catamaran Dock -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="5" id="14">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="6" id="97">	<!-- Brundle Island: Docks -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="6" id="35">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="7" id="100">	<!-- Fortress Island: Docks -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="7" id="22">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="8" id="115">	<!-- Polar Island: 1st scene -->
-		<bestEver><!-- Lowest ever time -->
-		</bestEver>
-		<PBTime><!-- Segment time from best overall run -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="8" id="10">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
-	<area pos="9" id="114">	<!-- Polar: End scene -->
-		<bestEver><!-- PB Time -->
-		</bestEver>
-		<PBTime><!-- Sum of best -->
-		</PBTime>
-		<splitNote><!-- Save note associated with split to display at run time -->
-		</splitNote>
+	<area pos="9" id="58">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="10" id="28">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="11" id="29">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="12" id="38">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="13" id="102">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="14" id="39">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="15" id="8">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="16" id="24">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="17" id="10">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="18" id="30">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="19" id="21">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="20" id="48">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="21" id="53">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="22" id="52">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="23" id="43">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="24" id="51">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="25" id="49">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="26" id="43">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="27" id="21">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="28" id="2">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="29" id="14">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="30" id="33">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="31" id="47">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="32" id="46">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="33" id="36">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="34" id="57">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="35" id="59">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
+	</area>
+	<area pos="36" id="60">
+		<bestEver />
+		<PBTime />
+		<splitNote />
+		<splitName />
 	</area>
 </route>

@@ -5,7 +5,7 @@
   <deleteSaves>True</deleteSaves>
   <currentRouteFile>.\files\routeFiles\route.xml</currentRouteFile>
   <autoSaveSplits>False</autoSaveSplits>
-  <showSubArea>False</showSubArea>
+  <showSubArea>True</showSubArea>
   <showMessageBoxOnRunEnd>True</showMessageBoxOnRunEnd>
   <alwaysOnTop>False</alwaysOnTop>
   <precisionDigits>3</precisionDigits>
@@ -14,7 +14,7 @@
   <saveColumnWidths>True</saveColumnWidths>
   <startTimeDelay>820</startTimeDelay>
   <mainLVColumnWidths>
-    <areaName>105</areaName>
+    <areaName>211</areaName>
     <differenceBest>0</differenceBest>
     <differencePB>0</differencePB>
     <time>60</time>
