@@ -39,6 +39,10 @@ namespace LBAAutoSplitter
             rbSave.Checked = options.saveColumnWidths;
             rbDefault.Checked = !options.saveColumnWidths;
             chkDefaultInventorySquare.Checked = options.defaultInventorySquare;
+            chkTransparentBackground.Checked = options.transparentBackground;
+            lblBgCol.BackColor = options.backgroundColour;
+            lblfgColour.BackColor = options.foreColour;
+            chkAutoReset.Checked = options.autoReset;
         }
 
         private void BtnOpen_Click(object sender, EventArgs e)
@@ -63,6 +67,10 @@ namespace LBAAutoSplitter
             options.saveColumnWidths = rbSave.Checked;
             options.startTimeDelay = txtStartTimeDelay.Text;
             options.defaultInventorySquare = chkDefaultInventorySquare.Checked;
+            options.transparentBackground = chkTransparentBackground.Checked;
+            options.autoReset = chkAutoReset.Checked;
+            options.backgroundColour = lblBgCol.BackColor;
+            options.foreColour = lblfgColour.BackColor;
             options.save();
             this.Close();
         }
@@ -76,6 +84,30 @@ namespace LBAAutoSplitter
         {
             if (chkDeleteSaves.Checked)
                 MessageBox.Show("Warning, this will delete all save files in the LBA directory");
+        }
+
+        private void btnSetBackgroundColour_Click(object sender, EventArgs e)
+        {
+            ColorDialog cd = new ColorDialog();
+            DialogResult result = cd.ShowDialog();
+            // See if user pressed ok.
+            if (result == DialogResult.OK)
+            {
+                // Set form background to the selected color.
+                lblBgCol.BackColor = cd.Color;
+            }
+        }
+
+        private void btnSetForeColour_Click(object sender, EventArgs e)
+        {
+            ColorDialog cd = new ColorDialog();
+            DialogResult result = cd.ShowDialog();
+            // See if user pressed ok.
+            if (result == DialogResult.OK)
+            {
+                // Set form background to the selected color.
+                lblfgColour.BackColor = cd.Color;
+            }
         }
     }
 }

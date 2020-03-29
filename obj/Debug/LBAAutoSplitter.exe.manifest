@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="104360">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="108456">
       <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>19Br4DzhaFOerJh/mdAbUs6yEJmwXTyklkBFFevq1vM=</dsig:DigestValue>
+        <dsig:DigestValue>DBzWXeiUV8CyR+oDj5UU5/O9+g3IFRMyxm8bz9ly8QQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,13 +72,13 @@
       <dsig:DigestValue>zFWrqXJ6qJeGf3jDeMWpN1xgE7BOM4cUlmeaKrzMOIU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="files\options.xml" size="1192" writeableType="applicationData">
+  <file name="files\options.xml" size="1366" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>OhpaEc61BBo9CAerfJsPmIwCsKJCCPBiiOOg3dzgoW0=</dsig:DigestValue>
+      <dsig:DigestValue>CDfsWNoUYLora61MKJBQvrJchEmDO5JRDY6bh8SAwsI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="files\routeFiles\citadelRun.xml" size="1204" writeableType="applicationData">

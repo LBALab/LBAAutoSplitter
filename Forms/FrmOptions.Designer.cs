@@ -56,6 +56,16 @@
             this.txtStartTimeDelay = new System.Windows.Forms.TextBox();
             this.lblDefaultInventorySquare = new System.Windows.Forms.Label();
             this.chkDefaultInventorySquare = new System.Windows.Forms.CheckBox();
+            this.chkTransparentBackground = new System.Windows.Forms.CheckBox();
+            this.lblTransparentBackground = new System.Windows.Forms.Label();
+            this.lblBackgroundColour = new System.Windows.Forms.Label();
+            this.lblBgCol = new System.Windows.Forms.Label();
+            this.btnSetBackgroundColour = new System.Windows.Forms.Button();
+            this.btnSetForeColour = new System.Windows.Forms.Button();
+            this.lblfgColour = new System.Windows.Forms.Label();
+            this.lblForeColour = new System.Windows.Forms.Label();
+            this.lblAutoReset = new System.Windows.Forms.Label();
+            this.chkAutoReset = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // lblLBADir
@@ -87,7 +97,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(144, 199);
+            this.btnSave.Location = new System.Drawing.Point(149, 235);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 25;
@@ -98,7 +108,7 @@
             // btnCancel
             // 
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(244, 199);
+            this.btnCancel.Location = new System.Drawing.Point(244, 235);
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(75, 23);
             this.btnCancel.TabIndex = 26;
@@ -325,14 +335,120 @@
             this.chkDefaultInventorySquare.TabIndex = 49;
             this.chkDefaultInventorySquare.UseVisualStyleBackColor = true;
             // 
+            // chkTransparentBackground
+            // 
+            this.chkTransparentBackground.AutoSize = true;
+            this.chkTransparentBackground.Location = new System.Drawing.Point(174, 214);
+            this.chkTransparentBackground.Name = "chkTransparentBackground";
+            this.chkTransparentBackground.Size = new System.Drawing.Size(15, 14);
+            this.chkTransparentBackground.TabIndex = 50;
+            this.chkTransparentBackground.UseVisualStyleBackColor = true;
+            // 
+            // lblTransparentBackground
+            // 
+            this.lblTransparentBackground.AutoSize = true;
+            this.lblTransparentBackground.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTransparentBackground.Location = new System.Drawing.Point(12, 214);
+            this.lblTransparentBackground.Name = "lblTransparentBackground";
+            this.lblTransparentBackground.Size = new System.Drawing.Size(147, 13);
+            this.lblTransparentBackground.TabIndex = 51;
+            this.lblTransparentBackground.Text = "Transparent Background";
+            // 
+            // lblBackgroundColour
+            // 
+            this.lblBackgroundColour.AutoSize = true;
+            this.lblBackgroundColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBackgroundColour.Location = new System.Drawing.Point(241, 189);
+            this.lblBackgroundColour.Name = "lblBackgroundColour";
+            this.lblBackgroundColour.Size = new System.Drawing.Size(115, 13);
+            this.lblBackgroundColour.TabIndex = 52;
+            this.lblBackgroundColour.Text = "Background Colour";
+            // 
+            // lblBgCol
+            // 
+            this.lblBgCol.AutoSize = true;
+            this.lblBgCol.Location = new System.Drawing.Point(401, 189);
+            this.lblBgCol.MinimumSize = new System.Drawing.Size(25, 13);
+            this.lblBgCol.Name = "lblBgCol";
+            this.lblBgCol.Size = new System.Drawing.Size(25, 13);
+            this.lblBgCol.TabIndex = 53;
+            // 
+            // btnSetBackgroundColour
+            // 
+            this.btnSetBackgroundColour.Location = new System.Drawing.Point(432, 184);
+            this.btnSetBackgroundColour.Name = "btnSetBackgroundColour";
+            this.btnSetBackgroundColour.Size = new System.Drawing.Size(37, 23);
+            this.btnSetBackgroundColour.TabIndex = 54;
+            this.btnSetBackgroundColour.Text = "Set";
+            this.btnSetBackgroundColour.UseVisualStyleBackColor = true;
+            this.btnSetBackgroundColour.Click += new System.EventHandler(this.btnSetBackgroundColour_Click);
+            // 
+            // btnSetForeColour
+            // 
+            this.btnSetForeColour.Location = new System.Drawing.Point(203, 184);
+            this.btnSetForeColour.Name = "btnSetForeColour";
+            this.btnSetForeColour.Size = new System.Drawing.Size(37, 23);
+            this.btnSetForeColour.TabIndex = 57;
+            this.btnSetForeColour.Text = "Set";
+            this.btnSetForeColour.UseVisualStyleBackColor = true;
+            this.btnSetForeColour.Click += new System.EventHandler(this.btnSetForeColour_Click);
+            // 
+            // lblfgColour
+            // 
+            this.lblfgColour.AutoSize = true;
+            this.lblfgColour.Location = new System.Drawing.Point(172, 189);
+            this.lblfgColour.MinimumSize = new System.Drawing.Size(25, 13);
+            this.lblfgColour.Name = "lblfgColour";
+            this.lblfgColour.Size = new System.Drawing.Size(25, 13);
+            this.lblfgColour.TabIndex = 56;
+            // 
+            // lblForeColour
+            // 
+            this.lblForeColour.AutoSize = true;
+            this.lblForeColour.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblForeColour.Location = new System.Drawing.Point(12, 189);
+            this.lblForeColour.Name = "lblForeColour";
+            this.lblForeColour.Size = new System.Drawing.Size(72, 13);
+            this.lblForeColour.TabIndex = 55;
+            this.lblForeColour.Text = "Text Colour";
+            // 
+            // lblAutoReset
+            // 
+            this.lblAutoReset.AutoSize = true;
+            this.lblAutoReset.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAutoReset.Location = new System.Drawing.Point(241, 214);
+            this.lblAutoReset.Name = "lblAutoReset";
+            this.lblAutoReset.Size = new System.Drawing.Size(65, 13);
+            this.lblAutoReset.TabIndex = 58;
+            this.lblAutoReset.Text = "Auto-reset";
+            // 
+            // chkAutoReset
+            // 
+            this.chkAutoReset.AutoSize = true;
+            this.chkAutoReset.Location = new System.Drawing.Point(403, 214);
+            this.chkAutoReset.Name = "chkAutoReset";
+            this.chkAutoReset.Size = new System.Drawing.Size(15, 14);
+            this.chkAutoReset.TabIndex = 59;
+            this.chkAutoReset.UseVisualStyleBackColor = true;
+            // 
             // FrmOptions
             // 
             this.AcceptButton = this.btnSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(468, 234);
+            this.ClientSize = new System.Drawing.Size(493, 272);
             this.ControlBox = false;
+            this.Controls.Add(this.chkAutoReset);
+            this.Controls.Add(this.lblAutoReset);
+            this.Controls.Add(this.btnSetForeColour);
+            this.Controls.Add(this.lblfgColour);
+            this.Controls.Add(this.lblForeColour);
+            this.Controls.Add(this.btnSetBackgroundColour);
+            this.Controls.Add(this.lblBgCol);
+            this.Controls.Add(this.lblBackgroundColour);
+            this.Controls.Add(this.lblTransparentBackground);
+            this.Controls.Add(this.chkTransparentBackground);
             this.Controls.Add(this.chkDefaultInventorySquare);
             this.Controls.Add(this.lblDefaultInventorySquare);
             this.Controls.Add(this.txtStartTimeDelay);
@@ -399,5 +515,15 @@
         private System.Windows.Forms.TextBox txtStartTimeDelay;
         private System.Windows.Forms.Label lblDefaultInventorySquare;
         private System.Windows.Forms.CheckBox chkDefaultInventorySquare;
+        private System.Windows.Forms.CheckBox chkTransparentBackground;
+        private System.Windows.Forms.Label lblTransparentBackground;
+        private System.Windows.Forms.Label lblBackgroundColour;
+        private System.Windows.Forms.Label lblBgCol;
+        private System.Windows.Forms.Button btnSetBackgroundColour;
+        private System.Windows.Forms.Button btnSetForeColour;
+        private System.Windows.Forms.Label lblfgColour;
+        private System.Windows.Forms.Label lblForeColour;
+        private System.Windows.Forms.Label lblAutoReset;
+        private System.Windows.Forms.CheckBox chkAutoReset;
     }
 }

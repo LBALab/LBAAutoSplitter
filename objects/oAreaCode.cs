@@ -58,7 +58,7 @@ namespace LBAAutoSplitter
             return mem.readAddress(1, OFFSET_AREACODE, 1).ToString();
         }
 
-        public string GetAreaCodeFile()
+        /*public string GetAreaCodeFile()
         {
             string areaCode;
             string tempFilePath = fullFilePath + TEMPPOSTFIX;
@@ -74,6 +74,6 @@ namespace LBAAutoSplitter
             fsStream.Dispose();
             File.Delete(tempFilePath);
             return areaCode;
-        }
+        }*/
     }
 }

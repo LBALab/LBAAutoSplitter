@@ -38,11 +38,49 @@ namespace LBAAutoSplitter
         public FrmMain()
         {
             InitializeComponent();
+            fixColours();
             SetDoubleBuffered(lvSplits);
             this.Text = "Auto Splitter v" + Assembly.GetExecutingAssembly().GetName().Version.ToString();
             LoadSplits();
         }
         #endregion
+
+        private void fixColours()
+        {
+            Options opt = new Options();
+            if (opt.transparentBackground)
+            {
+                this.TransparencyKey = this.BackColor;
+            }
+            else
+            {
+                this.TransparencyKey = Color.Empty;
+                if (Color.Empty != opt.backgroundColour)
+                {
+                    try { this.BackColor = opt.backgroundColour; } catch (Exception e) { }
+                    
+                    foreach (Control C in this.Controls)
+                    {
+                        try
+                        {
+                            C.BackColor = opt.backgroundColour;
+                        }
+                        catch (Exception e) { }                        
+                    }
+                }
+            }
+            if(Color.Empty != opt.foreColour)
+            {
+                foreach (Control C in this.Controls)
+                {
+                    try
+                    {
+                        C.ForeColor = opt.foreColour;
+                    }
+                    catch (Exception e) { }
+                }
+            }
+        }
         #region setDoubleBuffered
         /**
          * Used to stop flickering on interface update
@@ -124,6 +162,7 @@ namespace LBAAutoSplitter
             fo.Dispose();
             RefreshRoute();
             ResumeAlwaysOnTop();
+            fixColours();
         }
         private void ConfigureSplitsToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -210,7 +249,7 @@ namespace LBAAutoSplitter
             }
             oAreacode = new AreaCode(saveFilePath);
             //We should have a file
-            if (oAreacode.GetAreaCodeFile() == route.splits[splitIndex].id)
+            if (oAreacode.GetAreaCodeMemory() == route.splits[splitIndex].id)
             {
                 startedRun = true;
                 System.Threading.Thread.Sleep(getInt(new Options().startTimeDelay));
@@ -275,6 +314,8 @@ namespace LBAAutoSplitter
          * If it's the last split this function updates the interface and passes control to
          * runEnd()
          */
+        bool possibleReset;
+        bool newGameStarted;
         private void RunStarted()
         {
             if (route.splits.Length - 1 > splitIndex)
@@ -285,6 +326,18 @@ namespace LBAAutoSplitter
                 route.splits[splitIndex].runSplitTime = ts.Ticks;
                 UpdateLVI(splitIndex, ts);
 
+                /*if (255 == getInt(oAreacode.GetAreaCodeMemory())) 
+                    possibleReset = true;
+                if(possibleReset && oAreacode.GetAreaCodeMemory() == route.splits[0].id)
+                {
+                    //reset
+                    ToggleTimer();
+                    ToggleTimer();
+                }
+                else
+                {
+                    possibleReset = false;
+                }*/
                 //Check if we're at a split area
                 if (oAreacode.GetAreaCodeMemory() == route.splits[splitIndex + 1].id)
                 {

@@ -31,9 +31,19 @@
 	<disableAutoZoom>
 		True
 	</disableAutoZoom>
+	<defaultInventorySquare>
+		True
+	</defaultInventorySquare>
 	<saveColumnWidths>
 		True
 	</saveColumnWidths>
+	<transparentBackground>
+		False
+	</transparentBackground>
+	<backgroundColour>
+	</backgroundColour>
+	<foreColour>
+	</foreColour>
 	<startTimeDelay>
 		820
 	</startTimeDelay>

@@ -37,6 +37,16 @@
 	<saveColumnWidths>
 		True
 	</saveColumnWidths>
+	<transparentBackground>
+		False
+	</transparentBackground>
+	<autoReset>
+		False
+	</autoReset>
+	<backgroundColour>
+	</backgroundColour>
+	<foreColour>
+	</foreColour>
 	<startTimeDelay>
 		820
 	</startTimeDelay>

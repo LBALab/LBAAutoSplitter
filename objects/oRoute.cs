@@ -76,6 +76,28 @@ namespace LBAAutoSplitter
                 return res;
             return 0;
         }
+        public void savePartialRun()
+        {
+            if (null == doc) throw new Exception();
+
+            int numOfCompletedSplits = 0;
+            int i = 0;
+            for (; 0 != splits[i + 2].runSplitTime; i++);
+            numOfCompletedSplits = i;
+            MessageBox.Show("Completed splits: " + numOfCompletedSplits);
+            return;
+            for (i = 0; i < splits.Length - 1; i++)
+            {
+                long bestEver = StringToLong(doc.DocumentElement.SelectNodes("/route/area/bestEver")[i].InnerText);
+                //If bestEver is zero, runSplitTime isn't zero, i.e. there's been a run, and splitTime is less than bestEver
+                if (0 == bestEver || (splits[i].runSplitTime < bestEver && 0 != splits[i].runSplitTime))
+                {
+                    doc.DocumentElement.SelectNodes("/route/area/bestEver")[i].InnerText = splits[i].runSplitTime.ToString();
+                    splits[i].bestEver = splits[i].runSplitTime;
+                }
+            }
+            Save(false);
+        }
 
         public void RecalculateTimes()
         {

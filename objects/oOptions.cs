@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Drawing;
 
 namespace LBAAutoSplitter
 {
@@ -26,12 +27,17 @@ namespace LBAAutoSplitter
         public bool showSubArea;
         public bool showMessageBoxOnRunEnd;
         public bool saveColumnWidths;
+        public bool transparentBackground;
+        public bool autoReset;
+        public Color backgroundColour;
+        public Color foreColour;
         WindowInf wiMain;
         WindowInf wiNotes;
         public bool alwaysOnTop;
         public MainLVColumnWidths mainLVColumnWidths = new MainLVColumnWidths();
         public XmlDocument doc;
         private string path;
+
         public Options()
         {
             readOptionsFile();
@@ -44,7 +50,6 @@ namespace LBAAutoSplitter
 
             XmlNodeList nodes = doc.DocumentElement.SelectNodes("/options/LBADir");
             LBADir = nodes[0].InnerText.Trim();
-
             interval = doc.DocumentElement.SelectNodes("/options/interval")[0].InnerText.Trim();
             precisionDigits = doc.DocumentElement.SelectNodes("/options/precisionDigits")[0].InnerText.Trim();
             disableAutoZoom = "true" == doc.DocumentElement.SelectNodes("/options/disableAutoZoom")[0].InnerText.Trim().ToLower();
@@ -54,6 +59,11 @@ namespace LBAAutoSplitter
             showSubArea = "true" == doc.DocumentElement.SelectNodes("/options/showSubArea")[0].InnerText.Trim().ToLower();
             showMessageBoxOnRunEnd = "true" == doc.DocumentElement.SelectNodes("/options/showMessageBoxOnRunEnd")[0].InnerText.Trim().ToLower();
             alwaysOnTop = "true" == doc.DocumentElement.SelectNodes("/options/alwaysOnTop")[0].InnerText.Trim().ToLower();
+            transparentBackground = "true" == doc.DocumentElement.SelectNodes("/options/transparentBackground")[0].InnerText.Trim().ToLower();
+            autoReset = "true" == doc.DocumentElement.SelectNodes("/options/autoReset")[0].InnerText.Trim().ToLower();
+            backgroundColour = getColour(doc.DocumentElement.SelectNodes("/options/backgroundColour")[0].InnerText.Trim());
+            foreColour = getColour(doc.DocumentElement.SelectNodes("/options/foreColour")[0].InnerText.Trim());
+
             routeFilePath = doc.DocumentElement.SelectNodes("/options/currentRouteFile")[0].InnerText.Trim();
             startTimeDelay = doc.DocumentElement.SelectNodes("/options/startTimeDelay")[0].InnerText.Trim();
             //If route file doesn't exist then default to default route file
@@ -80,6 +90,18 @@ namespace LBAAutoSplitter
             }
         }
 
+        private int getInt(string value)
+        {
+            int val;
+            if (!int.TryParse(value, out val)) return 0;
+            return val;
+        }
+
+        private Color getColour(string s)
+        {
+            if (0 == s.Length) return Color.Empty;
+            return Color.FromArgb(getInt(s));
+        }
         public void save()
         {
             if (null == doc) throw new Exception();
@@ -96,6 +118,10 @@ namespace LBAAutoSplitter
             doc.DocumentElement.SelectNodes("/options/showSubArea")[0].InnerText = showSubArea.ToString();
             doc.DocumentElement.SelectNodes("/options/showMessageBoxOnRunEnd")[0].InnerText = showMessageBoxOnRunEnd.ToString();
             doc.DocumentElement.SelectNodes("/options/alwaysOnTop")[0].InnerText = alwaysOnTop.ToString();
+            doc.DocumentElement.SelectNodes("/options/transparentBackground")[0].InnerText = transparentBackground.ToString();
+            doc.DocumentElement.SelectNodes("/options/autoReset")[0].InnerText = autoReset.ToString();
+            doc.DocumentElement.SelectNodes("/options/backgroundColour")[0].InnerText = backgroundColour.ToArgb().ToString();
+            doc.DocumentElement.SelectNodes("/options/foreColour")[0].InnerText = foreColour.ToArgb().ToString();
 
             doc.DocumentElement.SelectNodes("/options/currentRouteFile")[0].InnerText = routeFilePath;
             doc.DocumentElement.SelectNodes("/options/startTimeDelay")[0].InnerText = startTimeDelay;
