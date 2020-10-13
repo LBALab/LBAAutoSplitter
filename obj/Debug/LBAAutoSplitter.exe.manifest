@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Autosplitter.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.69" language="neutral" processorArchitecture="msil" />
     <commandLine file="LBAAutoSplitter.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="108456">
-      <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="108968">
+      <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.69" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DBzWXeiUV8CyR+oDj5UU5/O9+g3IFRMyxm8bz9ly8QQ=</dsig:DigestValue>
+        <dsig:DigestValue>VOo0fQ4QUCSL5VGV5U/WmUqEMDdC3MKbQCHT8uB+HSc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -78,7 +78,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>CDfsWNoUYLora61MKJBQvrJchEmDO5JRDY6bh8SAwsI=</dsig:DigestValue>
+      <dsig:DigestValue>4R0p0otYifqz+Z4i+OCI9hbLRR49z35oLRhwCtHQaL8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="files\routeFiles\citadelRun.xml" size="1204" writeableType="applicationData">

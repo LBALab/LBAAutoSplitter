@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Autosplitter.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.69" language="neutral" processorArchitecture="msil" />
     <commandLine file="LBAAutoSplitter.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="105384">
-      <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.5" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LBAAutoSplitter.exe" size="105896">
+      <assemblyIdentity name="LBAAutoSplitter" version="1.0.0.69" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SVa7QLIZ/S85Gg9s+HqlxhuZ5VXDnDaCaxr3Z5vU86c=</dsig:DigestValue>
+        <dsig:DigestValue>dfeG6R2Zr5vaj1JhBeHAPe1E6FAWs7RETaJG1rF5oUk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -72,13 +72,13 @@
       <dsig:DigestValue>zFWrqXJ6qJeGf3jDeMWpN1xgE7BOM4cUlmeaKrzMOIU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="files\options.xml" size="1328" writeableType="applicationData">
+  <file name="files\options.xml" size="1366" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fEmAzKLeXWmNHjItJZqc952FxcbQYv3qKc5u6YfrEhU=</dsig:DigestValue>
+      <dsig:DigestValue>4R0p0otYifqz+Z4i+OCI9hbLRR49z35oLRhwCtHQaL8=</dsig:DigestValue>
     </hash>
   </file>
   <file name="files\routeFiles\citadelRun.xml" size="1204" writeableType="applicationData">

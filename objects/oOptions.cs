@@ -44,11 +44,14 @@ namespace LBAAutoSplitter
         }
         private void readOptionsFile()
         {
+            if (null == doc)
+                doc = new XmlDocument();
             doc = new XmlDocument();
             path = AppDomain.CurrentDomain.BaseDirectory + "files\\options.xml";
             doc.Load(path);
 
             XmlNodeList nodes = doc.DocumentElement.SelectNodes("/options/LBADir");
+            if (null == nodes) System.Windows.Forms.MessageBox.Show("Nodes is null");
             LBADir = nodes[0].InnerText.Trim();
             interval = doc.DocumentElement.SelectNodes("/options/interval")[0].InnerText.Trim();
             precisionDigits = doc.DocumentElement.SelectNodes("/options/precisionDigits")[0].InnerText.Trim();
